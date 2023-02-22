@@ -1,4 +1,4 @@
-package xyz.algodriven.social_network_compose.ui.theme
+package xyz.algodriven.social_network_compose.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
