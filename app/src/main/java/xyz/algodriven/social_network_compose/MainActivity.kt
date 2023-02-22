@@ -10,13 +10,13 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import xyz.algodriven.social_network_compose.ui.theme.SocialnetworkcomposeTheme
+import xyz.algodriven.social_network_compose.ui.theme.SocialNetworkComposeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            SocialnetworkcomposeTheme {
+            SocialNetworkComposeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -37,7 +37,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    SocialnetworkcomposeTheme {
+    SocialNetworkComposeTheme {
         Greeting("Android")
     }
 }
